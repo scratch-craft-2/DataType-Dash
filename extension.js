@@ -50,7 +50,7 @@
         };
       }
 TypeSTR(args) {
- let str = "([args.valuestr])";
+ let str = ([args.valuestr] + "");
  return str ;
 }
 TypeNum(args) {
@@ -58,9 +58,9 @@ TypeNum(args) {
 }
 TypeBool(args) {
   if [args.valuebool] {
-  return True 
+  return true 
   }
-  return False
+  return false
 }
     }
     Scratch.extensions.register(new DataNewTypes());
