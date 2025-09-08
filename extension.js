@@ -6,10 +6,6 @@
 (function (Scratch) {
     "use strict";
 
-  if (!Scratch.extensions.unsandboxed) {
-    throw new Error("This Extension must run unsandboxed");
-  }
-
     class DataType {
       getInfo() {
         return {
