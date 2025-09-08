@@ -67,5 +67,5 @@ TypeBool(args) {
   return False
 }
     }
-    Scratch.extensions.register(new modals());
+    Scratch.extensions.register(new DataType());
   })(Scratch);
