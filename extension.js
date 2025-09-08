@@ -1,5 +1,5 @@
 // Name: DataType
-// ID: Data-New-Types
+// ID: DataNewTypes
 // By: scratch_craft_2 <https://scratch.mit.edu/users/scratch_craft_2/>
 // License: MPL-2.0
 
@@ -9,7 +9,7 @@
     class DataType {
       getInfo() {
         return {
-          id: " Data-New-Types",
+          id: "DataNewTypes",
           name: "DataType",
           color1: "#59c059",
           blocks: [
@@ -63,5 +63,5 @@ TypeBool(args) {
   return False
 }
     }
-    Scratch.extensions.register(new DataType());
+    Scratch.extensions.register(new DataNewTypes());
   })(Scratch);
