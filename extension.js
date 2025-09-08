@@ -57,7 +57,7 @@ TypeNum(args) {
   return ([args.valuenum] + 0);
 }
 TypeBool(args) {
-  if [args.valuebool] {
+  if (args.valuebool) {
   return true 
   }
   return false
