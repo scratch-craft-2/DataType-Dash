@@ -63,5 +63,5 @@ TypeBool(args) {
   return false
 }
     }
-    Scratch.extensions.register(new DataNewTypes());
+    Scratch.extensions.register(new DataType());
   })(Scratch);
